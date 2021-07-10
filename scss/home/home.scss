@@ -1,0 +1,15 @@
+@import "./_config";
+
+.home__card__title {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.home__button__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

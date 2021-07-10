@@ -1,0 +1,14 @@
+@import "../home/home.scss";
+@import "../index/index.scss";
+@import "../signUp/signUp.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
