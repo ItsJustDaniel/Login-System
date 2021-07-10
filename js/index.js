@@ -11,7 +11,7 @@ const login = async () => {
   console.log(data);
   for (let i = 0; i < data.length; i++) {
     if (data[i].password === password && data[i].email === email) {
-      location.href = "home.html";
+      location.href = "Home.html";
     } else {
       console.log("error");
     }
@@ -42,5 +42,5 @@ const signup = async () => {
 
   console.log(data);
 
-  location.href = "home.html";
+  location.href = "Home.html";
 };
