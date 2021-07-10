@@ -1,3 +1,4 @@
 /server
 server
 ./server
+server\node_modules
