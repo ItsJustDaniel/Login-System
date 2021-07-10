@@ -4,7 +4,7 @@ const login = async () => {
   const password = document.getElementById("password").value;
   const email = document.getElementById("email").value;
 
-  const isLogin = await fetch("http://localhost:9000/signin");
+  const isLogin = await fetch("https://loginsystem123.herokuapp.com/signin");
 
   const data = await isLogin.json();
 
@@ -25,7 +25,7 @@ const signup = async () => {
   const password = document.getElementById("password").value;
   const email = document.getElementById("email").value;
 
-  const isLogin = await fetch("http://localhost:9000/signup", {
+  const isLogin = await fetch("https://loginsystem123.herokuapp.com/signup", {
     method: "POST",
     headers: {
       Accept: "application/json",
