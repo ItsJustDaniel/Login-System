@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+
   </head>
   <body>
     <div class="body__main">
@@ -17,26 +18,32 @@
             class="card__input card__input__password"
             type="username"
             placeholder="Username"
+            id="username"
+
           />
 
           <input
             class="card__input card__input__email"
             type="email"
             placeholder="Email"
+            id="email"
           />
 
           <input
             class="card__input card__input__password"
             type="password"
             placeholder="Password"
+            id="password"
+
           />
         </div>
         <div>
           <div class="button__container">
             <div class="button">
             <button
-              onclick="location.href = 'Home.html';"
+              onclick="signup()"
               class="button_submit"
+              id="button__register"
             >
               Register
             </button>
@@ -46,6 +53,7 @@
             <button
               onclick="location.href = 'Login.html';"
               class="button_submit"
+            
             >
               Login Here
             </button>
@@ -54,5 +62,7 @@
         </div>
       </div>
     </div>
+    <script src="./js/index.js"></script>
+
   </body>
 </html>

@@ -17,20 +17,23 @@
             class="card__input card__input__email"
             type="email"
             placeholder="Email"
+            id="email"
           />
 
           <input
             class="card__input card__input__password"
             type="password"
             placeholder="Password"
+            id="password"
           />
         </div>
         <div>
           <div class="button__container">
             <div class="button">
             <button
-              onclick="location.href = 'Home.html';"
+              onclick="login()"
               class="button_submit"
+              id="button__login"
             >
               Login
             </button>
@@ -48,5 +51,7 @@
         </div>
       </div>
     </div>
+    <script src="./js/index.js"></script>
+
   </body>
 </html>
